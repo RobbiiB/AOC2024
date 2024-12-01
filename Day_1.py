@@ -1,10 +1,10 @@
 with open("DATA_FILE/Day_1") as file:
-    raw_data = file.readlines()
-    data = [[int(raw_data[i].split()[0]) for i in range(raw_data.__len__())],[int(raw_data[i].split()[1]) for i in range(raw_data.__len__())]]
+    raw_data: [str] = file.readlines()
+    data: [[int]] = [[int(raw_data[i].split()[0]) for i in range(raw_data.__len__())],[int(raw_data[i].split()[1]) for i in range(raw_data.__len__())]]
 
 
 def problem_1(data: [[int]]) -> int:
-    dist = 0
+    dist: int = 0
     while data[0].__len__()>0:
         min_left_ind = data[0].index(min(data[0]))
         min_right_ind = data[1].index(min(data[1]))
