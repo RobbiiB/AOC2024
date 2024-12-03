@@ -45,5 +45,5 @@ def problem_2(data: int) -> int:
     pass
 
 
-problem_1(data)
-problem_2(data)
+# print(problem_1(data))
+# print(problem_2(data))

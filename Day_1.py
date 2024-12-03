@@ -26,5 +26,5 @@ def problem_2(data: [[int]]) -> int:
     return similarity
 
 
-# problem_1(data)
-print(problem_2(data))
+# print(problem_1(data))
+# print(problem_2(data))
