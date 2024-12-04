@@ -57,5 +57,5 @@ def problem_2(data: str) -> int:
     return multiplicity
 
 
-print(problem_1(data))
-print(problem_2(data))
+# print(problem_1(data))
+# print(problem_2(data))
