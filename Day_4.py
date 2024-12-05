@@ -54,16 +54,21 @@ def problem_2(data: list)->int:
                 check_num = check_num ^0b10
             try:
                 ind: int = left_45[i].index("SAM")
-                print(ind)
+                print(left_45[i])
                 left_45[i][ind + 1] = "R"
             except:
                 check_num = check_num ^ 0b1
-
+    # for row in left_45:
+    #     print(row)
 
     return x_mas_counter
 # print(problem_1(data))
 
 def find_index_rotated_list(data:list, i:int,j:int)->tuple[int,int]:
-    pass
+    x_max = data[0].__len__()
+    pivot = (x_max+1)//2
 
+
+
+find_index_rotated_list(data, 0,0 )
 problem_2(data)
